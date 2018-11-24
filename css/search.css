@@ -1,0 +1,33 @@
+.searchBox label {
+}
+
+.searchBox input {
+	padding: 7px 10px;
+  border-radius: .2rem;
+  border: 1px solid lightgrey;
+}
+
+.searchBox .menu {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #cccccc;
+  background-color:white;
+  z-index: 999;
+}
+
+.searchBox .item {
+  padding: 5px 10px;
+  cursor: default;
+}
+
+.searchBox .item-highlighted {
+  color: white;
+  background-color: #4095bf;
+}
+
+.searchBox .item-header {
+  background-color: #eeeeee;
+  color: #454545;
+  font-weight: bold;
+}

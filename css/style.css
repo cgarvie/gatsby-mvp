@@ -1,0 +1,202 @@
+.hidden {
+	display: none;
+}
+
+a {
+	text-decoration: underline;
+}
+
+body {
+	background-color: #EFEFEF;
+}
+
+header h3 {
+	font-size:32px;
+}
+header a {
+	text-decoration: none;
+}
+
+header a#logo:hover {
+	text-decoration: none;
+}
+
+header a#logo span {
+	color: grey;
+}
+
+header ul a {
+	padding-left: 20px;
+	text-decoration: underline;
+}
+
+div#container {
+	background-color:white;
+}
+
+button, input[type="submit"], input[type=checkbox], input[type=radio] {
+    padding: .25rem .5rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+.btn-blue:hover, .btn-blue.active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-blue {
+	color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+.btn-grey {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+ }
+
+ .toolList {
+ 	list-style-type: none;
+ 	margin: 0 0;
+ }
+
+ .toolList li span {
+ 	padding-left: .5rem;
+
+ }
+
+ span.smallText {
+ 	font-size: 14px;
+ 	color: grey;
+ }
+
+
+ .enumeration {
+	font-size:24px;
+	font-weight:600;
+	color:lightgrey;
+ 	margin-right: 0.5em;
+ }
+
+ span.highlighted {
+ 	background-color: yellow;
+ 	font-weight:600;
+ }
+
+ .product {
+ 	border-top:1px solid lightgrey;
+ 	margin: 2em 0;
+ }
+
+.product:last-of-type {
+ 	border-bottom:1px solid lightgrey;
+ 	padding: 0 0 1em;
+ }
+
+@media only screen and (min-width: 900px) {
+	div#toolbar {
+		position: sticky;
+		top: 0;
+		padding: 10px 0;
+		background-color:white;
+		width:100%;
+		height:55px;
+	}
+	div#toolbar ul {
+		display: inline;
+	}
+	div#toolbar li {
+		display:inline;
+		padding: 0 0 0 20px;
+	}
+	div#contents {
+		width: 650px;
+	}
+	#TOC {
+	 	float: right;
+	 	width: 250px;
+	 	position: sticky;
+		top: 55px;
+ 	}
+	#TOC h3 {
+		margin: 0 0 1em;
+	}
+	#TOC li {
+		font-size:13px;
+	}
+ }
+
+div#contents div.product-image {
+	height: 250px;
+	margin: 1em;
+}
+@media only screen and (min-width: 600px) {
+	div#contents div.product-image {
+		float: right;
+		text-align: right;
+	}
+}
+@media only screen and (max-width: 599px) {
+	div#contents div.product-image {
+		text-align: center;
+	}
+}
+
+div.review-good h5 {
+	color: green;
+}
+
+
+div.review-bad h5 {
+	color: red;
+}
+
+
+img.ProductImage {
+	max-width:350px;
+	height: 250px;
+}
+
+ol.toplist > li {
+	margin: 2em 0;
+	display: inline-grid;
+}
+
+ol.toplist > li > p {
+	padding: 1.25em 0 0;
+	}
+@media only screen and (min-width: 900px) {
+	ol.toplist > li {
+		width: 33%;
+	}
+}
+@media only screen and (min-width: 500px) and (max-width: 899px) {
+	ol.toplist > li {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 499px) {
+	ol.toplist > li {
+		width: 100%;
+	}
+}
+
+span.ListNumber {
+	font-size:24px;
+	font-weight:600;
+	color:lightgrey;
+	margin: 0 0 1em;
+}
+
+ul.features {
+	display: none;
+}
+
+ul.inline > li {
+	display: inline;
+	margin-right: 0.5em;
+}
